@@ -241,6 +241,10 @@ footer p {
     .gallery-item {
         width: calc(50% - 20px);
     }
+    
+    .gallery-item:hover img {
+        transform: none;
+    }
 }
 
 @media (max-width: 480px) {
